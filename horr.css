@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+#container{
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('haunted.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+#rain{
+    background-image:url('rain.png');
+    height: 100vh;
+    animation: rain .5s linear infinite;
+    
+}
+
+@keyframes rain{
+    from{
+        background-position: 0% 0%;
+
+    }
+    to{
+        background-position: 20% 100%;
+    }
+}
